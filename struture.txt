@@ -1,0 +1,29 @@
+project-root/
+│
+├─ app/
+│  ├─ api/               # All backend endpoints live here
+│  │  ├─ auth/           # Login, register, tokens
+│  │  ├─ users/          # User profile, settings
+│  │  ├─ catalog/        # Artists, albums, tracks
+│  │  ├─ playlists/      # User + public playlists
+│  │  ├─ library/        # Liked songs, saved albums
+│  │  ├─ player/         # Play, stream URLs, history
+│  │  ├─ search/         # Global search
+│  │  ├─ payments/       # Subscriptions / webhooks
+│  │  └─ admin/          # Admin / ingestion routes
+│  │
+│  └─ (your frontend pages/components)
+│
+├─ lib/                  # All backend logic (JS)
+│  ├─ db/                # Database connection + queries
+│  ├─ auth/              # JWT, password hashing
+│  ├─ services/          # Business logic for each module
+│  ├─ validators/        # Request validation helpers
+│  ├─ utils/             # Small helpers (dates, errors)
+│  └─ config/            # Constants, env helpers
+│
+├─ scripts/              # DB migrations, seed data
+│
+├─ .env                  # Secrets (DB, JWT, etc)
+├─ package.json
+└─ README.md

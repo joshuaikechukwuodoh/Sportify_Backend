@@ -1,0 +1,27 @@
+{
+  "name": "spotify-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "better-auth": "^1.4.1",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
+    "next": "16.0.3",
+    "pg": "^8.16.3",
+    "pusher": "^5.2.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "swagger-ui-react": "^5.30.3",
+    "uploadthing": "^7.7.4"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.7"
+  }
+}
